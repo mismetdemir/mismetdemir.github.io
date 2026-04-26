@@ -1,9 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Anthemis</title>
 </head>
 <body>
-    <h1>Site testing</h1>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark anthem-navbar">
+            <div class="container">
+                <a class="navbar-brand logo" href="/">
+                    <img src="/assets/icons/logo.png" alt="Anthemis Logo">
+                </a>
+
+                <button 
+                    class="navbar-toggler custom-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#mainNavbar" 
+                    aria-controls="mainNavbar" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+                    <ul class="navbar-nav align-items-md-center gap-md-4">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/people/">People</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/projects/">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact/">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Anthemis</h1>
+            <p>Discover future professionals and their projects</p>
+        </div>
+    </section>
+
+    <section id="people-showcase">
+
+    </section>
+
+    <section id="projects-showcase">
+
+    </section>
+
+    <section id="contact-showcase">
+
+    </section>
+
+
+
+
+    <footer>
+        <div class="container">
+            © 2026 Anthemis. All rights reserved.
+        </div>
+    </footer>
+
+    <canvas id="bg-canvas" width="600" height="600"></canvas>
+    <script src="/js/background.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
