@@ -121,18 +121,13 @@ footer {
 }
 
 /* Responsive Navbar */
+.mobile-menu-box {
+  margin-left: auto;
+}
 
 @media (max-width: 767.98px) {
   .anthem-navbar {
     padding: 16px 0;
-  }
-
-  .navbar-collapse {
-    margin-top: 18px;
-    padding: 18px;
-    border-radius: 18px;
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .navbar-nav {
